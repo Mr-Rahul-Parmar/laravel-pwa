@@ -1,0 +1,29 @@
+{
+    "name": "rahul-parmar/laravelpwa",
+    "description": "PWA - Simple laravel Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr-Rahul-Parmar",
+            "email": "parmarrahul536@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Parmar\\LaravelPwa\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Parmar\\LaravelPwa\\PWAServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPwa": "Parmar\\LaravelPwa\\LaravelPwa"
+            }
+        }
+    },
+    "require": {}
+}
